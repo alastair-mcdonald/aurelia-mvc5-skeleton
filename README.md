@@ -11,11 +11,12 @@ Currently the .Net project skeletons provided by the Aurelia team support .Net C
 	* npm install
 	* jspm install -y
 	* node node_modules\protractor\bin\webdriver-manager update
-4. Build the project in Visual Studio; it should build with no errors after downloading nuget packages.
-	* Note: I had to add a Task Runner task to copy the html files to the dist folder. If Task Runner explorer fails to open GulpFile.js you may need to apply the fix described [here in StackOverflow](http://stackoverflow.com/questions/31301582/task-runner-explorer-cant-load-tasks) 
-5. Build and run the project using Gulp. 
+4. Build and run the project using Gulp. 
 	* run the command `Gulp watch`
 	* open a browser and navigate to http://localhost:9000. The Aurelia app should run.
+5. Build the project in Visual Studio; it should build with no errors after downloading nuget packages.
+	* Note: I added a Task Runner task to copy the html files to the dist folder. If Task Runner explorer fails to open GulpFile.js you may need to apply the fix described [here in StackOverflow](http://stackoverflow.com/questions/31301582/task-runner-explorer-cant-load-tasks) 
+	* Run the project and browse to http://localhost:63006 then navigate to http://localhost:63006/app
 6. Run the unit tests with `gulp test`. They should all run and pass.
 7. Run the e2e tests with `gulp serve e2e`. They should all run and pass.
 
