@@ -85,7 +85,7 @@ PATH=...;C:\Program Files (x86)\Microsoft SDKs\TypeScript\2.1\;...
 	* Install-Package Microsoft.TypeScript.MSBuild
 	* Modify tsconfig.json to exclude the test folder
 6. Test to make sure all is working using gulp watch
-7. Create a controller and view for to run Aurelia
+7. Create a controller and view to run Aurelia
 8. Copy index.html and paste into the index.cshtml for the Aurelia view (no layout used, no changes to the html needed)
 9. Find a solution for e2e tests not running. This turned out to be running the command `node node_modules\protractor\bin\webdriver-manager update`
 10. Build and run in Visual Studio 2015
