@@ -47,7 +47,7 @@ The following worked for me on Windows 10 64 bit:
 	* Open a browser and navigate to http://localhost:9000. The Aurelia app should run.
 5. Build the project in Visual Studio; it should build with no errors after downloading nuget packages.
 	* Note: I added a Task Runner task to copy the html files to the dist folder. If Task Runner explorer fails to open GulpFile.js you may need to apply the fix described [here in StackOverflow](http://stackoverflow.com/questions/31301582/task-runner-explorer-cant-load-tasks) 
-	* Run the project and browse to http://localhost:63006 then navigate to http://localhost:63006/app
+	* Run the project and browse to http://localhost:63006 then navigate to http://localhost:63006/app. The Aurelia app should run at that url.
 6. Run the unit tests with `gulp test`. They should all run and pass.
 7. Run the e2e tests with `gulp serve e2e`. They should all run and pass.
 
