@@ -12,4 +12,4 @@ test/e2e/dist
 /obj
 /bin
 /scripts/jquery*
-npm-debug.log
+/AureliaMvc5.csproj.user
