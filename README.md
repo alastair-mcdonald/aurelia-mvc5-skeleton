@@ -22,6 +22,12 @@ Next, open a console and run the following commands:
 2. jspm
 	* `npm install -g jspm`
 
+Next, prep for TypeScript:
+
+* Install TypeScript 2.1.4 if not already installed. The latest version can be found [here](http://www.typescriptlang.org/index.html)
+* Modify the PATH environment variable to point to this version, rather than an earlier one. You may need to restart Visual Studio for it to pick this up.
+PATH=...;C:\Program Files (x86)\Microsoft SDKs\TypeScript\2.1\;...
+
 Finally...
 
 * Install [node-gyp](https://github.com/nodejs/node-gyp), following the instructions for your OS.
@@ -70,7 +76,11 @@ The essential steps used to create the skeleton were:
 3. Run npm install 
 4. Run jspm install -y
 4. Accept the defaults for all the config files (config.js, package.json, tsconfig.e2e.json, karma.conf.js)
-5. Install TypeScript at 2.1.4
+5. Prep for TypeScript:
+	* Install TypeScript 2.1.4 if not already installed. The latest version can be found [here](http://disq.us/url?url=http%3A%2F%2Fwww.typescriptlang.org%2Findex.html%3A7sLV5XUHtkQV9R0VaVjUe-Q1H20&cuid=3586370)
+	*   Modify the PATH environment variable to point to this version, rather than an earlier one. You may need to restart Visual Studio to pick this up.
+PATH=...;C:\Program Files (x86)\Microsoft SDKs\TypeScript\2.1\;...
+5. Install the TypeScript 2.1.4 nuget packages in Visual Studio
 	* install-package microsoft.typescript.compiler
 	* Install-Package Microsoft.TypeScript.MSBuild
 	* Modify tsconfig.json to exclude the test folder
