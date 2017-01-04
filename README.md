@@ -32,7 +32,7 @@ Fix for Task Runner can't load tasks [here on StackOverflow](http://stackoverflo
 
 
 ## Project Creation Steps
-The steps used to create the skeleton were
+The essential steps used to create the skeleton were:
 
 1. Create a new MVC5 project
 2. Copy the Aurelia Typescript skeleton into the root of the project
@@ -46,6 +46,7 @@ The steps used to create the skeleton were
 6. Test to make sure all is working using gulp watch
 7. Create a controller and view for to run Aurelia
 8. Copy index.html and paste into the index.cshtml for the Aurelia view (no layout used, no changes to the html needed)
-9. Build and run in Visual Studio 2015
+9. Find a solution for e2e tests not running. This turned out to be running the command `node node_modules\protractor\bin\webdriver-manager update`
+10. Build and run in Visual Studio 2015
 
  
