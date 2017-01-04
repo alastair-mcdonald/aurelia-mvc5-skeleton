@@ -12,6 +12,7 @@ Before you begin you will need to install the following if not already installed
 1. [Node.js](https://nodejs.org/en/)
 2. [npm](https://github.com/felixrieseberg/npm-windows-upgrade)
 3. [Git](https://git-scm.com/)
+
 These steps are essential so please complete them before proceeding.
 
 Next, open a console and run the following commands:
@@ -25,9 +26,9 @@ Finally...
 
 * Install [node-gyp](https://github.com/nodejs/node-gyp), following the instructions for your OS.
 
-I installed the following on Windows 10 64 bit:
+The following worked for me on Windows 10 64 bit:
 
-* Install the latest [Python v2](https://www.python.org/downloads/) (** not v3!**)
+* Install the latest [Python v2](https://www.python.org/downloads/) (**not v3!**)
 * Make sure [Visual Studio 2015](https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx) is installed with Visual C++ included
 * Install the [Windows 7 64 bit SDK](https://www.microsoft.com/en-us/download/details.aspx?id=8279)
 
@@ -37,13 +38,13 @@ I installed the following on Windows 10 64 bit:
 1. Clone or download the project and extract to a suitable location
 2. Open a command prompt and change directory to the project's folder (the folder containing packages.json). `cd \project_root\AureliaMvc5\AureliaMvc5`
 3. Run the following commands
-	* npm install
-	* jspm install -y
-	* node node_modules\protractor\bin\webdriver-manager update
+	* `npm install`
+	* `jspm install -y`
+	* `node node_modules\protractor\bin\webdriver-manager update`
 	* There should be no errors at this stage. Please fix any errors before proceeding.
 4. Build and run the project using Gulp. 
-	* run the command `Gulp watch`
-	* open a browser and navigate to http://localhost:9000. The Aurelia app should run.
+	* Run the command `Gulp watch`
+	* Open a browser and navigate to http://localhost:9000. The Aurelia app should run.
 5. Build the project in Visual Studio; it should build with no errors after downloading nuget packages.
 	* Note: I added a Task Runner task to copy the html files to the dist folder. If Task Runner explorer fails to open GulpFile.js you may need to apply the fix described [here in StackOverflow](http://stackoverflow.com/questions/31301582/task-runner-explorer-cant-load-tasks) 
 	* Run the project and browse to http://localhost:63006 then navigate to http://localhost:63006/app
