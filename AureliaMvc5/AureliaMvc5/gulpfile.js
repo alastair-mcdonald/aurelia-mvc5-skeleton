@@ -1,3 +1,4 @@
+/// <binding AfterBuild='build-html' />
 var gulp = require('gulp');
 
 // all gulp tasks are located in the ./build/tasks directory
