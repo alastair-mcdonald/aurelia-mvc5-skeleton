@@ -24,7 +24,7 @@ Next, open a console and run the following commands:
 
 Next, prep for TypeScript:
 
-* Install TypeScript 2.1.4 if not already installed. The latest version can be found [here](http://www.typescriptlang.org/index.html)
+* Install [TypeScript 2.1.4]((http://www.typescriptlang.org/index.html)) if not already installed.
 * Modify the PATH environment variable to point to this version, rather than an earlier one. You may need to restart Visual Studio for it to pick this up.
 PATH=...;C:\Program Files (x86)\Microsoft SDKs\TypeScript\2.1\;...
 
