@@ -1,16 +1,46 @@
 #Aurelia Mvc5 Skeleton
 
-This project is setup to integrate the Aurelia Typescript navigation skeleton with an Asp.Net Mvc5 project which uses .Net 4. 
+This project is setup to integrate the Aurelia Typescript navigation skeleton (provided by the Aurelia team) with an Asp.Net Mvc5 project which uses .Net 4. 
 
 Currently the .Net project skeletons provided by the Aurelia team support .Net Core only with nothing supplied to support .Net 4.*.
 
 ## Usage
+
+### Install Prerequisites
+Before you begin you will need to install the following if not already installed:
+
+1. [Node.js](https://nodejs.org/en/)
+2. [npm](https://github.com/felixrieseberg/npm-windows-upgrade)
+3. [Git](https://git-scm.com/)
+These steps are essential so please complete them before proceeding.
+
+Next, open a console and run the following commands:
+
+1. Gulp
+	* `npm install -g gulp`
+2. jspm
+	* `npm install -g jspm`
+
+Finally...
+
+* Install [node-gyp](https://github.com/nodejs/node-gyp), following the instructions for your OS.
+
+I installed the following on Windows 10 64 bit:
+
+* Install the latest [Python v2](https://www.python.org/downloads/) (** not v3!**)
+* Make sure [Visual Studio 2015](https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx) is installed with Visual C++ included
+* Install the [Windows 7 64 bit SDK](https://www.microsoft.com/en-us/download/details.aspx?id=8279)
+
+
+###  Download, Build and Run the project...
+
 1. Clone or download the project and extract to a suitable location
 2. Open a command prompt and change directory to the project's folder (the folder containing packages.json). `cd \project_root\AureliaMvc5\AureliaMvc5`
 3. Run the following commands
 	* npm install
 	* jspm install -y
 	* node node_modules\protractor\bin\webdriver-manager update
+	* There should be no errors at this stage. Please fix any errors before proceeding.
 4. Build and run the project using Gulp. 
 	* run the command `Gulp watch`
 	* open a browser and navigate to http://localhost:9000. The Aurelia app should run.
