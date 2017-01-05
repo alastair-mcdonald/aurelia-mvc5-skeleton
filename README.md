@@ -43,11 +43,14 @@ The following worked for me on Windows 10 64 bit:
 
 1. Clone or download the project and extract to a suitable location
 2. Open a command prompt and change directory to the project's folder (the folder containing package.json). `cd \project_root\AureliaMvc5\AureliaMvc5`
-3. Run the following commands
+3. Run the following commands:
 	* `npm install`
 	* `jspm install -y`
 	* `node node_modules\protractor\bin\webdriver-manager update`
+	* `npm install typings --global`
+	* `typings install dt~jasmine --global`	
 	* There should be no errors at this stage. Please fix any errors before proceeding.
+	* Note: the last two commands install typings for Jasmine which prevents TypeScript compilation errors when compiling the e2e tests.
 4. Build and run the project using Gulp. 
 	* Run the command `Gulp watch`
 	* Open a browser and navigate to http://localhost:9000. The Aurelia app should run.
