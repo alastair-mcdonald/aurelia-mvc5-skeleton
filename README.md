@@ -42,7 +42,7 @@ The following worked for me on Windows 10 64 bit:
 ###  Download, Build and Run the project...
 
 1. Clone or download the project and extract to a suitable location
-2. Open a command prompt and change directory to the project's folder (the folder containing packages.json). `cd \project_root\AureliaMvc5\AureliaMvc5`
+2. Open a command prompt and change directory to the project's folder (the folder containing package.json). `cd \project_root\AureliaMvc5\AureliaMvc5`
 3. Run the following commands
 	* `npm install`
 	* `jspm install -y`
